@@ -1,0 +1,80 @@
+  body{
+        background-image:url('https://img.freepik.com/free-photo/desk-workspace-with-various-elements_23-2148043242.jpg?size=626&ext=jpg&ga=GA1.2.670486125.1684557747&semt=ais') ;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      position:center;
+}
+  
+  h1 {
+    font-style: italic;
+      color: red;
+      background-color: aqua;
+      text-align: center;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+ button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+  #addButton:hover {
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  li i {
+    margin-right: 10px;
+    cursor: pointer;
+  }
